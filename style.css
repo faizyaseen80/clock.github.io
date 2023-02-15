@@ -1,0 +1,30 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url(wallpapersden.com_k-a-different-world_1920x1080.jpg);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.time {
+    color: white;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#clock {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 130px;
+  background: none;
+  color: white;
+  line-height: 10px;
+  
+}
